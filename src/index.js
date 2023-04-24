@@ -18,12 +18,7 @@ ReactDOM.render(
   <div className="max-w-[1200px] grid grid-cols-1 lg:grid-cols-3 gap-5  lg:grid-rows-[auto,1fr,1fr,auto] grid-auto-rows-min-[100px]  sm:grid-cols-1 ">
     
     
-    {/* <div className="col-span-2  h-60">
-				<div className=" py-5 sm:grid-row-4 min-h-0 border  border-black rounded-lg mx-2 md:ml-0 md:mr-2 w-full md:w-250 px-4 mb-4 flex-grow-1">
-					<MyComponent />
-				</div> */}
-    
-    
+   
     {/*chart component*/}
     <div className="lg:col-span-2  lg:h-60">
     <div className="py-5 sm:grid-row-4 min-h-0 border border-black rounded-lg mx-2 md:ml-0 md:mr-2 w-full md:w-250 px-4 mb-4  flex-grow-1">
@@ -37,6 +32,7 @@ ReactDOM.render(
           <App />
         </div>
       </div>
+      {/**Exchange component */}
       <div className="flex-1 md:py-45 md:h-65 md:grid-rows-3">
         <div className="p-6 text-sm leading-5 border border-black rounded-lg">
           <Exchange />
